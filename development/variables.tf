@@ -43,6 +43,9 @@ variable "commands1" {}
 variable "security_group_name" {}
 variable "pri_security_group_name" {}
 variable "ingress_value" {}
+variable "ingress2_value" {
+
+}
 variable "pri_instance_name" {}
 
 

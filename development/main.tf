@@ -30,6 +30,7 @@ module "SecurityGroup" {
   vpc_id                  = module.vpc.vpc_id
   cidr_block              = var.cidr_block
   ingress_value           = var.ingress_value
+  ingress2_value          = var.ingress2_value
   depends_on              = [module.vpc]
   pri_security_group_name = "${local.env}-${var.pri_security_group_name}"
 }
